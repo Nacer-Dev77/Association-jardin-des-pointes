@@ -182,6 +182,7 @@ body {
 
   .nav_bar.active {
     transform: translateX(0);
+    
   }
   .container_nav ul li {
     margin-top: 20px;
