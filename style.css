@@ -1845,7 +1845,7 @@ body {
 /* *************************** ************************************************* */
 /* *********************** Mode large desktop***************************************** */
 /* *************************** ************************************************* */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1400px){
 
    /* *************************** ************************************************* */
   /* *********************** Navigation ***************************************** */
@@ -1860,20 +1860,20 @@ body {
     flex-direction: row;
     transform: translateX(0);
     box-shadow: none;
-    top: 18px;
+    top: 37px;
     width: auto;
     height: auto;
 }
 .title_logo img {
-  width: 7rem;
+  width: 10rem;
 }
 .title_logo h1 {
-  font-size: 18px;
+  font-size: 22px;
   color: black;
   text-align: center;
 }
 .container_nav ul li a {
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
   color: black;
   border-bottom: 1px solid grey;
