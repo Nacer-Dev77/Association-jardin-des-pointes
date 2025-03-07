@@ -1081,15 +1081,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: nowrap;
-    background-color: #fff;
+    flex-wrap: nowrap;   
     list-style: none;
     flex-direction: row;
-    transform: translateX(0);
+    transform: translateX(32rem);
     box-shadow: none;
-    top: 26px;
-    width: auto;
-    height: auto;
+    top: 26px;   
   }
 
   .title_logo {
