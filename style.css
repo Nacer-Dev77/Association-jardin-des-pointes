@@ -5,12 +5,10 @@
 }
 body {
   background: rgb(23, 176, 19);
-  background: linear-gradient(
-    190deg,
-    rgb(255 255 255) 0%,
-    rgba(71, 236, 66, 1) 60%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(13deg,
+   rgb(255 255 255) 0%,
+   rgb(162 240 160) 60%,
+   rgba(255, 255, 255, 1) 100%);
 }
 
 /* *************************** ************************************************* */
@@ -151,7 +149,7 @@ body {
   }
 
   .title_logo h1 {
-    font-size: 26px;
+    font-size: 21px;
     text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
@@ -239,7 +237,7 @@ body {
     font-size: 26px;
   }
   .presentation_right span {
-    font-size: 30px;
+    font-size: 25px;
     color: #00b050;
   }
   .presentation_right p {
@@ -254,7 +252,7 @@ body {
     align-items: center;
   }
   .title_garden {
-    font-size: 27px;
+    font-size: 24px;
     text-align: center;
     margin: 20px 10px 20px;
   }
@@ -268,7 +266,7 @@ body {
     margin: 1rem 8px;
   }
   .jardin_thorigny h2 {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
   }
   .jardin_thorigny h3 {
@@ -290,7 +288,7 @@ body {
     
   }
   .histoire h2 {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     margin: 1rem 10px 1rem;
   }
