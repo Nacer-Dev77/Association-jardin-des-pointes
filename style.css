@@ -1679,8 +1679,9 @@ body {
     width: 15rem;
     height: 37rem;
     object-fit: cover;
-    margin-top: 12px;
+    margin-top: 20px;
   }
+ 
 
   .bloc_astuces_left .box_astuces h4 {
     font-size: 20px;
