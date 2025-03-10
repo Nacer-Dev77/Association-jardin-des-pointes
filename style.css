@@ -1677,9 +1677,9 @@ body {
 
   .bloc_astuce_right img {
     width: 15rem;
-    height: 34rem;
-    object-fit: cover; 
-    margin-top: 20px;  
+    height: 37rem;
+    object-fit: cover;
+    margin-top: 12px;
   }
 
   .bloc_astuces_left .box_astuces h4 {
