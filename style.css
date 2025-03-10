@@ -174,7 +174,7 @@ body {
 
   .nav_bar.active {
     transform: translateX(0);
-    top: 8rem;
+    top: 9rem;
     right: 0;
     width: 100%;
     height: 100vh;
@@ -775,7 +775,7 @@ body {
 
   .nav_bar.active {
     transform: translateX(0);
-    top: 12rem;
+    top: 11rem;
     right: 0;
     width: 100%;
     height: 100vh;
