@@ -765,11 +765,12 @@ body {
     right: 10px;
   }
 
-  .nav_bar {
-    position: absolute;
-    transition: transform 0.3s ease;
-    list-style: none;
-    transform: translateX(-202px);
+  .nav_bar {    
+      position: absolute;
+      transition-duration: 1s;
+      list-style: none;
+      transform: translateX(-202px);
+      top: 8rem;  
   }
 
   .nav_bar.active {
