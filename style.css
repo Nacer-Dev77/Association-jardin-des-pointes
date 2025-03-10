@@ -4,13 +4,13 @@
   margin: 0;
 }
 body {
-  background: rgb(23, 176, 19);
-  background: linear-gradient(
+  background: rgb(202, 235, 202);
+  /* background: linear-gradient(
     13deg,
     rgb(255 255 255) 0%,
-    rgb(162 240 160) 60%,
+    rgb(210 243 209) 60%
     rgba(255, 255, 255, 1) 100%
-  );
+  ); */
 }
 
 /* *************************** ************************************************* */
@@ -151,11 +151,11 @@ body {
   }
 
   .title_logo h1 {
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .title_logo .fa-bars {
@@ -375,14 +375,14 @@ body {
   /* *************************** **************************************************/
 
   .actu_section h2 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    margin: 20px 10px 20px;
+    margin: 2rem 10px 20px;
   }
   .actu_section h2 i {
     font-size: 25px;
     color: #00b050;
-    margin-inline: 5px;
+    margin-inline: 10px;
   }
   .bloc_actu_section {
     line-height: 1.5;
