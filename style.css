@@ -2,9 +2,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Arial, sans-serif;
+  
 }
 body {
   background: rgb(202, 235, 202);
+  
   /* background: linear-gradient(
     13deg,
     rgb(255 255 255) 0%,
@@ -21,11 +24,6 @@ body {
   /* *************************** ************************************************* */
   /* *********************** Page portail ***************************************** */
   /* *************************** ************************************************* */
-  /* body {
-
-        background: rgb(23, 176, 19);
-        background: linear-gradient(190deg, rgb(255 255 255) 0%, rgba(71, 236, 66, 1) 60%, rgba(255, 255, 255, 1) 100%);
-    } */
 
   .logo {
     display: flex;
@@ -136,8 +134,9 @@ body {
   /* *************************** **************************************************/
   /* *********************** Logo et Open navbar **********************************/
   /* *************************** **************************************************/
+ 
 
-  .container nav {
+  /* .container nav {
     width: 100%;
     display: flex;
     align-items: center;
@@ -194,7 +193,7 @@ body {
     text-decoration: none;
     text-align: center;
     line-height: 3;
-  }
+  } */
 
   /* *************************** **************************************************/
   /* *********************** Page Accueil *****************************************/
@@ -255,10 +254,15 @@ body {
     align-items: center;
   }
   .title_garden {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     margin: 20px 10px 20px;
   }
+  .title_garden i{
+    margin-inline: 5px;
+      color: #00b050;
+  }
+  
   .present_garden h2 i {
     font-size: 25px;
     color: #00b050;
@@ -318,9 +322,9 @@ body {
     margin: 2rem auto;
   }
   .footer_block .liens_utiles .mairie {
-    backdrop-filter: brightness(0.5);
-    margin-bottom: 2rem;
     width: 10rem;
+    background-color: darkseagreen;
+    margin-bottom: 2rem;
   }
   .footer_block .liens_utiles .mairie p {
     color: #fff;
@@ -363,10 +367,10 @@ body {
     line-height: 1.5;
   }
   .dev span {
-    font-size: 18px;
+    font-size: 16px;
   }
   .dev p {
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px;
   }
 
@@ -377,7 +381,7 @@ body {
   .actu_section h2 {
     font-size: 18px;
     text-align: center;
-    margin: 2rem 10px 20px;
+    margin: 4rem 5px 20px;
   }
   .actu_section h2 i {
     font-size: 25px;
@@ -433,11 +437,16 @@ body {
     font-size: 16px;
     margin: 20px;
   }
- 
+
   .bloc_astuces_left .box_astuces img {
     width: 80%;
     height: 16rem;
     object-fit: cover;
+  }
+  .box_astuces p{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 30px;
   }
   .bloc_astuces_left .box_astuces h4 {
     font-size: 18px;
@@ -462,7 +471,7 @@ body {
   /* *************************** **************************************************/
 
   .title_climat {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     margin: 2rem;
   }
@@ -496,8 +505,15 @@ body {
     line-height: 1.5;
     text-align: center;
   }
+  .boxe_centre h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
 
   .boxe_left img,
+  .boxe_auxiliaires_centre img,
+  .boxe_centre img,
   .bloc_paillage img,
   .boxe_auxiliaires_left img,
   .bloc_auxiliaires img {
@@ -543,7 +559,7 @@ body {
 
   .astuces {
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 2rem auto 3rem;
   }
   .astuces h2 {
     text-align: center;
@@ -564,50 +580,44 @@ body {
 /* *********************** Mode tablette ****************************************/
 /* *************************** **************************************************/
 
-@media screen and (min-width: 600px) {
-
+/* @media screen and (min-width: 600px) { */
   /* *************************** **************************************************/
   /* *********************** Page Astuces *****************************************/
   /* *************************** **************************************************/
-  .bloc_img_up img {
+  /* .bloc_img_up img {
     width: 90%;
     height: 16rem;
     object-fit: cover;
-}
-.bloc_img_dawn img {
-  width: 90%;
-  height: 16rem;
-  object-fit: cover;
-}
-.bloc_astuces_left .box_astuces img {
-  width: 70%;
-  height: 16rem;
-  object-fit: cover;
-}
-.bloc_astuce_right_img img {
-  width: 70%;
-  height: 16rem;
-  object-fit: cover;
-  margin-bottom: 2rem;
-}
-/* *************************** **************************************************/
-/* *********************** Page Astuces *****************************************/
-/* *************************** **************************************************/
-.boxe_left img,
- .bloc_paillage img,
+  }
+  .bloc_img_dawn img {
+    width: 90%;
+    height: 16rem;
+    object-fit: cover;
+  }
+  .bloc_astuces_left .box_astuces img {
+    width: 70%;
+    height: 16rem;
+    object-fit: cover;
+  }
+  .bloc_astuce_right_img img {
+    width: 70%;
+    height: 16rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  } */
+  /* *************************** **************************************************/
+  /* *********************** Page Astuces *****************************************/
+  /* *************************** **************************************************/
+  /* .boxe_left img,
+  .bloc_paillage img,
   .boxe_auxiliaires_left img,
-   .bloc_auxiliaires img {
-  width: 95%;
-  height: 16rem;
-  object-fit: cover;
-  margin-top: 20px;
-}
-
-
-
-
-}
-
+  .bloc_auxiliaires img {
+    width: 95%;
+    height: 16rem;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+} */
 
 @media screen and (min-width: 768px) {
   /* *************************** **************************************************/
@@ -732,8 +742,9 @@ body {
   /* *************************** **************************************************/
   /* *********************** Logo et Open navbar **********************************/
   /* *************************** **************************************************/
+  
 
-  .container nav {
+  /* .container nav {
     width: 100%;
     display: flex;
     align-items: center;
@@ -796,22 +807,59 @@ body {
     text-decoration: none;
     text-align: center;
     line-height: 3;
-  }
+  } */
 
   /* *************************** **************************************************/
   /* *********************** Page Accueil *****************************************/
   /* *************************** **************************************************/
   .img_transforme img {
-    width: 45rem;
+    width: 100%;
     height: 30rem;
     margin: 1rem 8px;
     object-fit: cover;
   }
   .presentation {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem;
+    margin: 3rem auto 3rem;
   }
+  .presentation .presentation_left img {
+    width: 95%;
+    margin: 1rem 20px;
+}
+  .present_garden {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    width: 100%;
+}
+.img_transforme{
+  width: 45%;
+}
+.histoire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 20px;
+  width: 45%;
+  height: 30rem;
+}
+.histoire p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.title_garden {
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 10px 20px;
+}
+.title_garden i{
+  margin-inline: 10px;
+    color: #00b050;
+}
 
   /* *************************** ************************************************* */
   /* *********************** Page Actus association******************************* */
@@ -838,6 +886,7 @@ body {
     font-size: 17px;
     margin-top: 20px;
     list-style: none;
+    text-align: justify;
   }
   .texte span {
     font-size: 17px;
@@ -846,7 +895,6 @@ body {
     font-size: 17px;
     margin: 20px;
   }
- 
 
   /* ***************************************************************************** */
   /* *********************** Page Défis Climatique******************************** */
@@ -907,12 +955,12 @@ body {
     width: 70%;
     height: 20rem;
     object-fit: cover;
-}
-.bloc_img_dawn img {
-  width: 70%;
-  height: 20rem;
-  object-fit: cover;
-}
+  }
+  .bloc_img_dawn img {
+    width: 70%;
+    height: 20rem;
+    object-fit: cover;
+  }
 
   .bloc_astuces_left .box_astuces img {
     width: 30rem;
@@ -1113,71 +1161,50 @@ body {
   /* *********************** Navigation ***************************************** */
   /* *************************** ************************************************* */
 
-  .title_logo .fa-bars {
+  /* .title_logo .fa-bars {
     visibility: hidden;
   }
-
-  nav {
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
+  .container_nav {
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
-    border-bottom: 1px solid grey;
-    margin-bottom: 6rem;
-  }
-  .nav_bar {
+    background-color: #fff;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: nowrap;
-    list-style: none;
-    flex-direction: row;
-    transform: translateX(34rem);
-    box-shadow: none;
-    top: 26px;
-    width: auto;
-    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
   }
-
   .title_logo {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
-
   .title_logo img {
-    width: 7rem;
+    width: 5rem;
+  
   }
-
-  .nav_bar ul {
-    list-style: none;
+  .nav_bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    flex-wrap: nowrap;
+    list-style: none;
   }
-
-  .container_nav ul li {
-    margin-right: 18px;
-  }
-
-  .container_nav ul li a {
-    font-size: 15px;
+  .nav_bar li a {
+    font-size: 18px;
+    color: #000;
+    margin-inline: 20px;
     text-decoration: none;
-    color: black;
-    border-bottom: 1px solid grey;
+    padding: 5px;
   }
-
-  nav a:hover {
+  .nav_bar li a:hover {
     color: aliceblue;
     background-color: grey;
     border-radius: 10px;
-    padding: 5px;
-  }
+    border-bottom: 2px solid #000;
+  } */
 
   .title_logo h1 {
     font-size: 14px;
@@ -1190,7 +1217,7 @@ body {
   /* *************************** ************************************************* */
 
   .presentation_association {
-    margin-top: 18rem;
+    margin-top: 2rem;
   }
 
   /* *************************** ************************************************* */
@@ -1205,6 +1232,7 @@ body {
 
   .presentation {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin: 10px;
     justify-content: space-around;
@@ -1223,7 +1251,7 @@ body {
   .presentation .presentation_left img {
     object-fit: cover;
     width: 28rem;
-    height: 20rem;
+    height: 22rem;
     float: left;
     margin: 40px 2px 0px 0px;
   }
@@ -1273,69 +1301,55 @@ body {
   }
 
   .presentation_right p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     color: black;
-    line-height: 1.7;
+    line-height: 1.5;
   }
   /* *************************** ************************************************* */
 
-  .bloc_home {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
   .jardin_thorigny {
-    width: 45%;
-    background-color: #494949;
-    padding: 10px;
-    height: 42rem;
-    margin-top: -38px;
+    width: 80%;
+    margin: 2rem auto 2rem 8rem;
+    border: 1px dashed gray;
   }
   .histoire {
     width: 45%;
     padding: 10px;
-    height: 42rem;
-    background-color: #494949;
-    margin-top: 0;
+    height: 35rem;
+    border: 1px dashed gray;
   }
 
   .jardin_thorigny a {
-    color: #ffffff;
+    color: blue;
+    text-decoration: none;
   }
 
   .jardin_thorigny h2 {
-    color: #ffffff;
-  }
-
-  .jardin_thorigny h3 {
-    text-align: center;
-    font-size: 18px;
-    color: #ffffff;
+    color: #000;
   }
 
   .jardin_thorigny p {
-    color: #ffffff;
+    color: #000;
     text-align: center;
-    font-size: 16px;
-    text-align: justify;
+    font-size: 18px;
   }
 
   .histoire h2 {
-    color: #ffffff;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5rem;
   }
 
   .histoire a {
-    color: #ffffff; 
-  } 
+    color: blue;
+    text-decoration: none;
+  }
 
   .histoire h3 {
     text-align: center;
     font-size: 20px;
-    color: #ffffff;
+    color: #000;
     margin-bottom: 2rem;
   }
 
@@ -1350,15 +1364,25 @@ body {
   /* *************************** ************************************************* */
 
   .presentation_garden {
+    width: 100%;
     margin-top: 6rem;
+  }
+  .present_garden {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    gap: 30px;
   }
 
   .img_transforme {
-    width: 100%;
+    width: 45%;
   }
 
   .present_garden img {
-    width: 98%;
+    float: left;
+    width: 100%;
     height: 35rem;
     object-fit: cover;
   }
@@ -1368,7 +1392,7 @@ body {
     color: black;
     margin-bottom: 4rem;
   }
-  .present_garden h2 i {
+  .presentation_garden h2 i {
     font-size: 25px;
     color: #00b050;
     margin-inline: 20px;
@@ -1376,9 +1400,8 @@ body {
 
   .present_garden p {
     font-size: 18px;
-    line-height: 1.6;
     text-align: justify;
-    color: #ffffff;
+    color: #000;
   }
 
   /* *************************** ************************************************* */
@@ -1386,7 +1409,7 @@ body {
   /* *************************** ************************************************* */
 
   .climat {
-    margin: 16rem auto 6rem;
+    margin: 6rem auto;
   }
 
   .title_climat {
@@ -1402,11 +1425,8 @@ body {
 
   .bloc_climat {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: aliceblue;
-    border: 4px solid aliceblue;
-    border-radius: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;    
     margin: 10px;
   }
 
@@ -1457,15 +1477,7 @@ body {
     margin-left: 6px;
   }
 
-  .circle {
-    border-radius: 50px;
-    background: #eaf0f1;
-    box-shadow: 20px 20px 60px #c7cccd, -20px -20px 60px #ffffff;
-    padding: 1rem;
-    width: 4.7rem;
-    height: 5rem;
-    margin-top: 1rem;
-  }
+ 
 
   .diapo {
     width: 100%;
@@ -1476,62 +1488,78 @@ body {
   /* *********************** Bloc Actu association ***************************** */
   /* *************************** ************************************************* */
 
-  .actu_asso {
-    display: flex;
-    gap: 2rem;
+  .actu_asso {   
     margin: 10px;
   }
 
   .actu_asso h1 {
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
+    margin-bottom: 4rem;
+  }
+  .boxe_centre{
+    width: 100%;
+  }
+  .boxe_centre img{
+    width: 50rem;
+    height: 20rem;
+    object-fit: cover;
+    margin-bottom: 6rem;
   }
 
-  .boxe_left img {
+  .left img {
     float: left;
-    width: 30rem;
-    height: 71rem;
+    width: 40rem;
+    height: 20rem;
     object-fit: cover;
-  }
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+  } 
 
-  .bloc_paillage img {
-    float: left;
-    width: 16rem;
-    height: 15rem;
-    margin-right: 20px;
+  .right img {
+    float: right;
+    width: 40rem;
+    height: 20rem;
     object-fit: cover;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
   }
 
   .bloc_paillage {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
-    height: 73rem;
+    justify-content: center;   
   }
 
   .minerales {
-    margin-bottom: 1rem;
+    margin: 4rem 2rem;
   }
 
   .foins {
-    margin-bottom: 1rem;
+    margin: 4rem 2rem;
   }
 
   .Bois {
-    margin-bottom: 1rem;
+    margin: 4rem 2rem;
   }
 
-  .bloc_paillage h4 {
-    font-size: 25px;
+  .minerales h4,
+  .foins h4,
+  .Bois h4,
+  .boxe_auxiliaires_left h4,
+  .bloc_auxiliaires h4 {
     text-align: center;
-  }
+    font-size: 20px;
+    margin: 5rem 20px;
+}
 
   .bloc_paillage p {
-    font-size: 18px;
+    font-size: 22px;
     text-align: justify;
-    text-align: center;
-    line-height: 1.4;
+   
   }
 
   /* *************************** ************************************************* */
@@ -1540,14 +1568,13 @@ body {
 
   .actu_section {
     margin-top: 6rem;
-    margin-bottom: 8rem;
   }
 
   .actu_section h2 {
     font-size: 30px;
     text-align: center;
-    margin: 16rem auto 2rem;
-}
+    margin-bottom: 4rem;
+  }
 
   .bloc_actu_section {
     display: flex;
@@ -1557,7 +1584,7 @@ body {
   }
   .cadre {
     width: 45rem;
-    height: fit-content;
+    height: 36rem;
     border: 3px solid #679436;
     padding: 1rem 2rem;
     border-radius: 10px;
@@ -1572,48 +1599,50 @@ body {
   }
   .bloc_img_up {
     display: flex;
+    width: 100%;
   }
   .bloc_img_dawn {
     display: flex;
   }
 
   .bloc_img_up .photo_right {
-    width: 8rem;
+    width: 10rem;
     height: 15rem;
-    margin-left: -19px;
-    margin-top: 1px;
+    /* margin-left: -19px;
+    margin-top: 1px; */
     border-top-right-radius: 10px;
-}
+  }
 
-.bloc_img_up .photo_left {
-  width: 19rem;
-  height: 15rem;
-  border-top-left-radius: 10px;
-  object-fit: cover;
-}
+  .bloc_img_up .photo_left {
+    width: 28rem;
+    height: 15rem;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+  }
   .bloc_img_dawn .photo_right {
-    width: 19rem;
+    width: 29rem;
     height: 15rem;
     margin-left: -18px;
     border-bottom-right-radius: 10px;
     object-fit: cover;
-}
+  }
 
   .bloc_img_dawn .photo_left {
-    width: 8rem;
+    width: 10rem;
     height: 15rem;
     border-bottom-left-radius: 10px;
     object-fit: cover;
-}
+  }
 
   .bloc_actu_section .texte {
     width: 40rem;
     text-align: center;
     line-height: 1.6;
   }
-  .texte ul li {
-    font-size: 16px;
+  .bloc_actu_section .texte ul li {
+    font-size: 20px;
     line-height: 1.6;
+    list-style: none;
   }
 
   .bloc_actu_section .texte h4 {
@@ -1646,7 +1675,7 @@ body {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    margin-top: 14rem;
+    margin-top: 3rem;
   }
 
   .astuces h2 {
@@ -1656,7 +1685,7 @@ body {
   }
 
   .bloc_astuces_left .box_astuces {
-    width: 15rem;
+    width: 22rem;
     display: flex;
     height: auto;
     flex-direction: column;
@@ -1672,28 +1701,33 @@ body {
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 15rem;
+    width: 22rem;
     height: 20rem;
     object-fit: cover;
+    border-radius: 10px;
   }
 
   .bloc_astuce_right img {
-    width: 15rem;
-    height: 37rem;
+    width: 22rem;
+    height: 38rem;
     object-fit: cover;
     margin-top: 20px;
+    border-radius: 10px;
   }
- 
 
   .bloc_astuces_left .box_astuces h4 {
     font-size: 20px;
     color: black;
     margin: 20px auto;
     text-align: center;
-}
+  }
 
   .bloc_astuces_left p {
     font-size: 18px;
+    width: 90%;
+    height: auto;
+    line-height: 1.6;
+    text-align: justify;
   }
 
   /* *************************** ************************************************* */
@@ -1701,8 +1735,9 @@ body {
   /* *************************** ************************************************* */
 
   .section_auxiliaires {
-    margin: 6rem 10px;
     display: flex;
+    flex-direction: column;
+    margin: 6rem 10px;
     gap: 2rem;
   }
 
@@ -1712,20 +1747,11 @@ body {
     margin: 5rem 6px 2rem;
   }
 
-  .boxe_auxiliaires_left img {
-    float: left;
-    width: 30rem;
-    height: 63rem;
+  .boxe_auxiliaires_centre img {   
+    width: 50rem;
+    height: 22rem;
     object-fit: cover;
-  }
-
-  .bloc_auxiliaires img {
-    float: left;
-    width: 16rem;
-    height: 15rem;
-    margin-right: 20px;
-    margin-bottom: 1rem;
-    object-fit: cover;
+    margin-bottom: 2rem;
   }
 
   .bloc_auxiliaires {
@@ -1733,7 +1759,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    height: 60rem;
+    
   }
 
   .bloc_ciel {
@@ -1754,9 +1780,8 @@ body {
   }
 
   .bloc_auxiliaires p {
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.4;
+    font-size: 22px;
+    text-align: justify;
   }
 
   /* *********** *********** ************************************************* */
@@ -1765,7 +1790,7 @@ body {
 
   .liens_utiles .logo_mairie {
     width: 4rem;
-    margin-left: 50px;
+    margin-left: 40px;
   }
 
   .footer_block .liens_utiles .mairie {
@@ -1773,6 +1798,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 10rem;
+    border-radius: 5px;
   }
 
   .footer_block .liens_utiles .mairie p {
@@ -1918,6 +1944,7 @@ body {
     color: black;
   }
 }
+}
 
 /* *************************** ************************************************* */
 /* *********************** Mode large desktop***************************************** */
@@ -1926,7 +1953,7 @@ body {
   /* *************************** ************************************************* */
   /* *********************** Portail********************************************** */
   /* *************************** ************************************************* */
-  .logo img {
+  /* .logo img {
     width: 14rem;
     margin-right: 8rem;
   }
@@ -1968,61 +1995,17 @@ body {
     text-align: center;
     color: aliceblue;
     text-decoration: none;
-  }
+  } */
 
   /* *************************** ************************************************* */
   /* *********************** Navigation ***************************************** */
   /* *************************** ************************************************* */
-  nav {
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    border-bottom: 1px solid grey;
-    margin-bottom: 6rem;
-  }
-  .nav_bar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: nowrap;
-    list-style: none;
-    flex-direction: row;
-    transform: translateX(45rem);
-    box-shadow: none;
-    top: 36px;
-    width: auto;
-    height: auto;
-  }
-  .title_logo img {
-    width: 10rem;
-  }
-  .title_logo h1 {
-    font-size: 20px;
-    color: black;
-    text-align: center;
-  }
-  .container_nav ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px solid grey;
-  }
-  .container_nav ul li {
-    margin-right: 40px;
-  }
+
   /* *************************** ************************************************* */
   /********************** présentation association ********************************/
   /* *************************** ************************************************* */
-  .presentation_association {
-    margin-top: 18rem;
-  }
-  .presentation_right h2 {
+
+  /* .presentation_right h2 {
     text-align: center;
     font-size: 30px;
     margin-top: 3rem;
@@ -2039,22 +2022,59 @@ body {
     text-align: justify;
     color: black;
     line-height: 1.7;
-  }
+  } */
   /* *************************** ************************************************* */
   /* ********************** Présntation jardins des pointes ********************** */
   /* *************************** ************************************************* */
-  .bloc_home {
+  /* .title_logo .fa-bars {
+    visibility: hidden;
+  } 
+  .container_nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
     display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid grey;
+  }
+  .title_logo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .title_logo img{
+    width: 8rem;
+    margin: 5px 10px auto 5px;
+  }
+  .nav_bar{
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    list-style: none;
   }
+  .nav_bar li a{
+    font-size: 18px;
+    color: #000;
+    margin-inline: 20px;
+    text-decoration: none;
+    padding: 5px;    
+  }
+  .nav_bar li a:hover{
+    color: aliceblue;
+    background-color: grey;
+    border-radius: 10px;
+    border-bottom: 2px solid #000;
+  } */
   /* *************************** ************************************************* */
   /* *********************** Bloc Actu association ***************************** */
   /* *************************** ************************************************* */
 
-  .actu_section h2 {
+  /* .actu_section h2 {
     font-size: 30px;
     text-align: center;
     margin: 23rem auto 8rem;
@@ -2152,14 +2172,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }
+  } */
 
   /* *************************** ************************************************* */
   /* ************************ Bloc Astuces Jardinage *************************** */
   /* *************************** ************************************************* */
- 
 
-  .astuces {
+  /* .astuces {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
@@ -2198,12 +2217,12 @@ body {
   .bloc_astuces_left p {
     font-size: 20px;
     width: 100%;
-}
+} */
   /* *********** *********** ************************************************* */
   /* *********** *********** Footer ****************************************** */
   /* *********** *********** ************************************************* */
 
-  .dev span {
+  /* .dev span {
     font-size: 18px;
     font-family: cursive;
     color: black;
@@ -2216,5 +2235,5 @@ body {
     font-size: 18px;
     text-align: center;
     line-height: 1.5;
-  }
+  } */
 }

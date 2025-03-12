@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta  name="description" content="Association des jardins familiaux des pointes à Thorigny sur Marne en Seine  
@@ -9,43 +8,159 @@
     <link rel="icon" type="image/png" href="favicon/favicon-96x96.png"/>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="normalize.css"/>
+    <link rel="stylesheet" href="nav.css"/>
     <title>Jardin des pointes</title>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap"rel="stylesheet"/>      
     <script src="https://kit.fontawesome.com/3e516f940b.js" crossorigin="anonymous"></script>    
   </head>
 
-    <body>
-        <div class="logo">
-            <img src="images/Logo_jardin.png"
-                alt="logo de l'association des Jardins Familliaux des Pointes de Thorigny sur marne"/>
-                <h1>A.J.F.P</h1>
-                
-        </div>
+  <body>    
 
-            <h2 class="title_portail">Association Des Jardins Familliaux</h2>     
+    <nav class="menu">
+      <div class="title_logo">
+        <img src="images/Logo_jardin.png" alt="logo de l'association des Jardins Familliaux des Pointes de 
+          Thorigny sur marne"/>                
+        <h1>Association des Jardins Familliaux des Pointes</h1>
+        
+    </div>
+      <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+      <div class="menu-links">
+          <a href="index.html">Accueil</a>
+          <a href="actuasso.html">Actu association</a>
+          <a href="defis_climatiques.html">Défis climatiques</a>
+          <a href="astuces.html">Astuces jardinage</a>
+      </div>
+  </nav>
+   
 
-        <div class="slider">
+    <main class="container">
 
-            <div class="slides">
+      <section class="presentation_association">
 
-                <div class="slide"><img src="images/vue_generale.jpg" alt="vue générale des jardins"></div>
-                <div class="slide"><img src="images/distrib1_2024.jpg" alt=""></div>
-                <div class="slide"><img src="images/distrib2_2024.jpg" alt=""></div>
-                <div class="slide"><img src="images/distrib3_2024.jpg" alt=""></div>
-                <div class="slide"><img src="images/vue_generale.jpg" alt="vue générale des jardins"></div>
+        <article class="presentation">
 
-            </div>
+          <div class="presentation_left">
+            <img src="images/distrib_assoc2.jpg" alt="image de fleurs du jardin" class="img_left" />
+           
 
-        </div>
+            <!-- <div class="bloc_apropos">
+              <h2 class="apropos">A propos de nous</h2>
+              <span> Entraide, tolérance, partage, amitié:</span>
+              <p>
+                C’est autour des ces valeurs universelles que NOUS, les
+                jardiniers de Thorigny, avons décidé de fondée l’A.J.F.P. en
+                2022
+              </p>
+            </div> -->
+          </div>
 
+          <div class="presentation_right">
+            <h2 class="initial">A.J.F.P</h2>
+            <h1 class="title_association">
+              <span>A</span>ssociation <span>D</span>es <span>J</span>ardins
+              <span> F</span>amilliaux <span>D</span>es <span>P</span>ointes
+            </h1>
+            <p>
+              Promotion et développement de la culture des jardins familiaux à
+              des fins non lucratives et non commerciales, l’association promeut
+              l’entraide et la solidarité, la sensibilisation aux enjeux
+              écologiques par la préoccupation d’organiser les parcelles de
+              façon harmonieuse et novatrice et contribuant ainsi au bien-être
+              de ses membres et par extension à celui du voisinage,
+              l’association et/ou favorise les échanges avec diverses structures
+              et établissements liés directement au jardinage, à l’écologie et à
+              l’environnement.</p>
+              <p> Entraide, tolérance, partage, amitié:
+              C’est autour des ces valeurs universelles que NOUS, les
+              jardiniers de Thorigny, avons décidé de fondée l’A.J.F.P. en
+              2022</p>
+            
+          </div>
+        </article>
+      </section>
 
-        <div class="decouverte">
-            <h2>BIENVENUE</h2>
-            <h3>Découvrez nos activités.</h3>
-            <p>Laissé vous guider à travers notre parcourt découverte. </p>
-        </div>
-        <div class="button">
-            <a href="home.html">Découvrir</a>
-        </div>
-    </body>
+      <section class="presentation_garden">
+       
+          <h2 class="title_garden"><i class="fa-solid fa-leaf"></i> Jardins Des Pointes<i class="fa-solid fa-leaf"> 
+              </i></h2>    
+        <article class="present_garden">
+          <div class="img_transforme">
+            <img src="images/distrib_assoc10.jpg" alt="image du jour de la distribution des semis par l'association 
+             au jardiniers"/>           
+          </div>
+          <div class="histoire">
+            <h2>Les Jardins Familliaux</h2>
+            <h3>Un peu d'histoire.</h3>
+            <p>
+              La naissance des jardins collectifs date de la fin du XIX -ème
+              siècle, sous l’impulsion de
+              <a href="https://fr.wikipedia.org/wiki/Jules-Auguste_Lemire" target="_blank">l’AbbéLEMIRE</a >
+              et du <a href="http://noms.rues.st.etienne.free.fr/rues/volpette.html"target="_blank"></a> père FELIX VOLPETTE</a>,
+              Ils jouent un rôle important dans les loisirs et la vie familiale.</p>                      
+            <p>Ils représentent un terrain de prédilection pour l’initiation à
+                 la nature et à la protection de l’environnement,et favorisent la vie sociale et associative.</p>            
+            <p>Les jardins familiaux sont dotés d’un statut légal depuis le milieu du XX –ème,La loi du 26 juillet 1952 fusionne les catégories de jardins ouvriers, industriels et enfin familiaux.</p>
+            
+          </div>
+        </article>
+
+          <article class="bloc_home">
+            <div class="jardin_thorigny">
+              <h2>Les jardins familiaux de Thorigny (11 ans déjà)</h2>
+             
+              <p>Les jardins familiaux de Thorigny sont nés en 2012.</p>
+              <p>
+                Au commencement 20 parcelles de 130m2 étaient mises à
+                dispostion. Avec également un jardin partagé proposé aux plus
+                démunis. Et des aménagements de carrés potagers prévu pour les
+                enfants de l'école primaire des pointes.
+              </p>
+              <p>
+                Aujourd'huit 23 parcelles de jardin familiaux sont cultivées. Et
+                à l'emplacement de l'ancien jardin partagé resté à l'abandon
+                durant de longues années l'arrivé de l'association
+                <a
+                  href="http://bouclesdelamarneentransition.fr/"
+                  target="_blank"
+                  >Boucle de la Marne</a
+                >
+                qui vient en aide à des personnes malade ou sortant de longue
+                maladie.
+              </p>
+            </div>           
+          </article>
+        
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer_block">
+      <div class="liens_utiles">
+        <h4>Liens utiles</h4>
+          <div class="mairie">
+              <a href="https://www.thorigny.fr/" target="_blank"><img src="images/logo_mairie.png" alt="logo de la 
+                      mairie de Thorigny sur marne"class="logo_mairie"/></a>
+              <a href="https://www.thorigny.fr/" target="_blank"></a> <p>Mairie de Thorigny sur Marne</p> </a>  
+          </div>
+      </div> 
+          <div class="social_media">
+              <h4>Nous suivre</h4>
+              <a href="https://www.facebook.com" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+              <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+      </div>
+      <div class="dev">
+          <span>Association des Jardins Familliaux des Pointes</span
+          ><span id="year"></span>
+          <p>Ce site à été réaliser par RACHEDI.N</p>
+          &copy; Copyright
+          <script>
+          document.write(new Date().getFullYear());
+          </script>
+      </div>
+  </footer>
+    <script src="script.js"></script>
+    <script src="test.js"></script>
+  </body>
 </html>
