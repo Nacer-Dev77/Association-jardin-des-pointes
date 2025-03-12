@@ -60,6 +60,7 @@ body {
   }
   .menu-links.active {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 5rem;
     height: 80vh;
   }
