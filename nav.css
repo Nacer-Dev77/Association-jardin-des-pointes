@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #4caf50;
+  background: #fff;
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -15,12 +15,15 @@ body {
   right: 0;
 }
 .menu a {
+  font-size: 18px;
+  color: #000;
   text-decoration: none;
-  color: white;
   padding: 10px 15px;
 }
 .menu a:hover {
-  background: #367c39;
+  color: #fff;
+  background: #00b050;
+  
   border-radius: 5px;
 }
 .menu-toggle {
@@ -38,7 +41,7 @@ body {
   align-items: center;
 }
 .title_logo img {
-  width: 6rem;
+  width: 8rem;
   margin-right: 10px;
 }
 .title_logo h1 {
@@ -68,5 +71,6 @@ body {
     display: block;
     margin: 0 0px 8rem;
     font-size: 35px;
+    color: black;
   }
 }

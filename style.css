@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;  
+  margin: 0;
 }
 
 body {
-  background: rgb(202, 235, 202);  
+  background: rgb(202, 235, 202);
 }
 
 /* *************************** ************************************************* */
@@ -13,13 +13,9 @@ body {
 /* *************************** ************************************************* */
 
 @media screen and (min-width: 320px) {
-
-  
-  /* *************************** **************************************************/  
+  /* *************************** **************************************************/
   /* ***********************  Navigation ******************************************/
-  /* *************************** **************************************************/ 
-
-  
+  /* *************************** **************************************************/
 
   /* *************************** **************************************************/
   /* *********************** Page Accueil *****************************************/
@@ -50,19 +46,22 @@ body {
     font-size: 16px;
   }
   .presentation_right {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px 5px;
   }
   .presentation_right h2 {
+    color: #00b050;
     text-align: center;
     font-size: 30px;
     margin-top: 3rem;
   }
   .title_association {
+    font-size: 20px;
     text-align: center;
-    font-size: 26px;
+    color: #00b050;
   }
   .presentation_right span {
     font-size: 25px;
@@ -80,15 +79,16 @@ body {
     align-items: center;
   }
   .title_garden {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
+    color: #00b050;
     margin: 20px 10px 20px;
   }
-  .title_garden i{
+  .title_garden i {
     margin-inline: 5px;
-      color: #00b050;
+    color: #00b050;
   }
-  
+
   .present_garden h2 i {
     font-size: 25px;
     color: #00b050;
@@ -101,6 +101,8 @@ body {
   .jardin_thorigny h2 {
     font-size: 20px;
     text-align: center;
+    color: #00b050;
+    width: 90%;
   }
   .jardin_thorigny h3 {
     font-size: 18px;
@@ -120,9 +122,11 @@ body {
     margin: 30px 20px 40px;
   }
   .histoire h2 {
-    font-size: 20px;
+    font-size: 21px;
     text-align: center;
     margin: 1rem 10px 1rem;
+    color: #00b050;
+    width: 90%;
   }
   .histoire h3 {
     font-size: 18px;
@@ -135,6 +139,16 @@ body {
     line-height: 1.5;
     margin-bottom: 2rem;
   }
+  .bloc_img_right img {
+    width: 95%;
+    height: 30rem;
+    margin: 1rem 8px;
+    object-fit: cover;
+  }
+  /* *************************** **************************************************/
+  /* *********************** Footer **********************************************/
+  /* ****************************************************************************/
+
   .footer_block {
     display: flex;
     flex-direction: column;
@@ -149,7 +163,6 @@ body {
   }
   .footer_block .liens_utiles .mairie {
     width: 10rem;
-    background-color: darkseagreen;
     margin-bottom: 2rem;
   }
   .footer_block .liens_utiles .mairie p {
@@ -265,18 +278,24 @@ body {
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 80%;
+    width: 90%;
     height: 16rem;
     object-fit: cover;
+    margin-top: 10px;
+    border-radius: 10px;
   }
-  .box_astuces p{
+  .box_astuces p {
+    font-size: 16px;
     text-align: center;
-    font-size: 14px;
     margin: 20px 30px;
+    line-height: 1.5;
+    border: 2px dashed #00b050;
+    padding: 10px;
   }
   .bloc_astuces_left .box_astuces h4 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
+    color: #00b050;
   }
   .bloc_astuces_right {
     display: flex;
@@ -300,6 +319,7 @@ body {
     font-size: 20px;
     text-align: center;
     margin: 2rem;
+    color: #00b050;
   }
 
   .bloc_climat .boxe {
@@ -310,16 +330,23 @@ body {
     justify-content: center;
     line-height: 1.5;
     margin: 20px;
+    background: #fff;
+    width: 90%;
+    height: 10rem;
+    border-radius: 10px;
+    border: 1px solid #00b050;
   }
   .bloc_climat .boxe h3 {
     width: 100%;
     font-size: 16px;
     text-align: center;
+    color: #00b050;
   }
 
   .bloc_climat .boxe p {
     text-align: center;
     margin: 2px;
+    width: 90%;
   }
   .bloc_climat .boxe i {
     font-size: 30px;
@@ -331,36 +358,47 @@ body {
     line-height: 1.5;
     text-align: center;
   }
-  .boxe_centre h1{
+  .boxe_centre h1 {
     font-size: 20px;
     text-align: center;
   }
+  .bloc_paillage {
+    border: 1px dashed;
+    border-radius: 10px;
+    background: aliceblue;
+    margin-bottom: 2rem;
+  }
+  .bloc_paillage img {
+    width: 90%;
+    height: 16rem;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
 
-
-  .boxe_left img,
-  .boxe_auxiliaires_centre img,
-  .boxe_centre img,
-  .bloc_paillage img,
-  .boxe_auxiliaires_left img,
   .bloc_auxiliaires img {
     width: 95%;
     height: 16rem;
     object-fit: cover;
     margin-top: 20px;
+    border-radius: 10px;
   }
   .bloc_paillage h1 {
     font-size: 20px;
     text-align: center;
     margin: 15px;
   }
-  .minerales h4,
-  .foins h4,
-  .Bois h4,
-  .boxe_auxiliaires_left h4,
+
   .bloc_auxiliaires h4 {
     text-align: center;
     font-size: 20px;
     margin: 20px;
+  }
+  .bloc_auxiliaires {
+    border: 1px dashed;
+    border-radius: 10px;
+    background: aliceblue;
+    margin-bottom: 2rem;
   }
   .section_auxiliaires {
     text-align: center;
@@ -377,6 +415,7 @@ body {
     font-size: 16px;
     text-align: center;
     margin: 5px 20px;
+    line-height: 1.5;
   }
 
   /* *************************** **************************************************/
@@ -390,8 +429,24 @@ body {
   .astuces h2 {
     text-align: center;
     font-size: 23px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #00b050;
   }
+  .bloc_astuces_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .box_astuces {
+    width: 90%;
+    border: 1px dashed;
+    border-radius: 10px;
+    background: aliceblue;
+    margin-bottom: 2rem;
+  }
+
   /* *************************** **************************************************/
   /* *********************** Footer ***********************************************/
   /* *************************** **************************************************/
@@ -407,13 +462,10 @@ body {
 /* *************************** **************************************************/
 
 @media screen and (min-width: 768px) {
- 
   /* *************************** **************************************************/
   /* *********************** Logo et Open navbar **********************************/
   /* *************************** **************************************************/
-  
 
-  
   /* *************************** **************************************************/
   /* *********************** Page Accueil *****************************************/
   /* *************************** **************************************************/
@@ -432,39 +484,45 @@ body {
   .presentation .presentation_left img {
     width: 95%;
     margin: 1rem 20px;
-}
+  }
   .present_garden {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     align-items: center;
     width: 100%;
-}
-.img_transforme{
-  width: 45%;
-}
-.histoire {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 30px 20px;
-  width: 45%;
-  height: 30rem;
-}
-.histoire p {
-  font-size: 16px;
-  text-align: center;
-  line-height: 1.4;
-  margin-bottom: 2rem;
-}
-.title_garden {
-  font-size: 22px;
-  text-align: center;
-  margin: 20px 10px 20px;
-}
-.title_garden i{
-  margin-inline: 10px;
+  }
+  .img_transforme {
+    width: 45%;
+  }
+  .histoire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px;
+    width: 45%;
+    height: 30rem;
+  }
+  .histoire p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+  }
+  .title_garden {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 10px 20px;
+  }
+  .title_garden i {
+    margin-inline: 10px;
     color: #00b050;
-}
+  }
+  .bloc_img_right img {
+    object-fit: cover;
+    width: 95%;
+    height: 30rem;
+    margin: 1rem 20px;
+  }
 
   /* *************************** ************************************************* */
   /* *********************** Page Actus association******************************* */
@@ -568,13 +626,14 @@ body {
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 30rem;
+    width: 80%;
     height: 18rem;
     object-fit: cover;
+    margin-top: 20px;
   }
 
   .bloc_astuces_left .box_astuces {
-    width: 23rem;
+    width: 90%;
     display: flex;
     height: auto;
     flex-direction: column;
@@ -587,6 +646,14 @@ body {
     height: 18rem;
     object-fit: cover;
     margin-bottom: 2rem;
+  }
+  .box_astuces p {
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 30px;
+    line-height: 1.5;
+    border: 2px dashed #00b050;
+    padding: 10px;
   }
 
   /* *************************** ************************************************* */
@@ -636,17 +703,9 @@ body {
 /* *************************** ************************************************* */
 
 @media screen and (min-width: 1024px) {
-  
   /* *************************** ************************************************* */
   /* *********************** Navigation ***************************************** */
   /* *************************** ************************************************* */
-
- 
-  .title_logo h1 {
-    font-size: 14px;
-    color: black;
-    text-align: center;
-  }
 
   /* *************************** ************************************************* */
   /************************ Page accueil *****************************************/
@@ -667,29 +726,26 @@ body {
   }
 
   .presentation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px;
-    justify-content: space-around;
-    gap: 1rem;
+    display: block;
+    width: 100%;
+    margin-top: 6rem;
   }
   .presentation .presentation_right {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 45%;
+    padding: 10px;
+    height: 35rem;
+    border: 1px dashed gray;
   }
   .presentation .presentation_left {
     width: 45%;
   }
 
   .presentation .presentation_left img {
-    object-fit: cover;
-    width: 28rem;
-    height: 22rem;
     float: left;
-    margin: 40px 2px 0px 0px;
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+    margin: 0 30px auto 20px;
   }
 
   .presentation_left h2 {
@@ -726,10 +782,10 @@ body {
 
   .title_association {
     text-transform: capitalize;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
     text-align: center;
-    font-size: 20px;
-    color: black;
+    font-size: 23px;
+    color: #00b050;
   }
 
   .title_association span {
@@ -737,17 +793,37 @@ body {
   }
 
   .presentation_right p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
     color: black;
     line-height: 1.5;
   }
+
   /* *************************** ************************************************* */
 
   .jardin_thorigny {
-    width: 80%;
-    margin: 2rem auto 2rem 8rem;
+    width: 45%;
+    padding: 10px;
+    height: 35rem;
     border: 1px dashed gray;
+    margin: 0 30px auto 20px;
+  }
+  .bloc_home {
+    width: 100%;
+    display: flex;
+    margin-top: 6rem;
+    justify-content: space-between;
+  }
+  .bloc_img_right {
+    width: 45%;
+    float: right;
+  }
+  .bloc_img_right img {
+    float: right;
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+    margin: 0 70px auto 0px;
   }
   .histoire {
     width: 45%;
@@ -762,7 +838,7 @@ body {
   }
 
   .jardin_thorigny h2 {
-    color: #000;
+    color: #00b050;
   }
 
   .jardin_thorigny p {
@@ -805,11 +881,7 @@ body {
   }
   .present_garden {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px;
-    gap: 30px;
+    display: block;
   }
 
   .img_transforme {
@@ -821,11 +893,12 @@ body {
     width: 100%;
     height: 35rem;
     object-fit: cover;
+    margin: 0 30px auto 20px;
   }
 
   .title_garden {
     font-size: 30px;
-    color: black;
+    color: #00b050;
     margin-bottom: 4rem;
   }
   .presentation_garden h2 i {
@@ -838,6 +911,7 @@ body {
     font-size: 18px;
     text-align: justify;
     color: #000;
+    line-height: 1.5;
   }
 
   /* *************************** ************************************************* */
@@ -850,20 +924,24 @@ body {
 
   .title_climat {
     font-size: 30px;
+    color: #00b050;
     text-align: center;
     margin-bottom: 6rem;
   }
 
   .bloc_climat .boxe h3 {
     font-size: 16px;
-    margin-top: 10px;
+    color: #00b050;
+    text-align: center;
   }
 
   .bloc_climat {
     display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 10px;
+    gap: 5px;
   }
 
   .bloc_climat .boxe {
@@ -872,9 +950,13 @@ body {
     align-items: center;
     flex-direction: column;
     width: 12rem;
-    height: auto;
+    height: 20rem;
     text-align: center;
     overflow: hidden;
+    background: aliceblue;
+    border-radius: 5px;
+    border: 1px solid #00b050;
+    padding: 10px;
   }
 
   .bloc_climat .boxe p {
@@ -913,8 +995,6 @@ body {
     margin-left: 6px;
   }
 
- 
-
   .diapo {
     width: 100%;
     margin-top: 6rem;
@@ -924,78 +1004,49 @@ body {
   /* *********************** Bloc Actu association ***************************** */
   /* *************************** ************************************************* */
 
-  .actu_asso {   
-    margin: 10px;
+  .actu_asso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   .actu_asso h1 {
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-  .boxe_centre{
     width: 100%;
-  }
-  .boxe_centre img{
-    width: 50rem;
-    height: 20rem;
-    object-fit: cover;
+    font-size: 30px;
+    color: #00b050;
+    text-align: center;
     margin-bottom: 6rem;
-  }
-
-  .left img {
-    float: left;
-    width: 40rem;
-    height: 20rem;
-    object-fit: cover;
-    margin-right: 15px;
-    border-radius: 5px;
-    border: 1px solid #000;
-  } 
-
-  .right img {
-    float: right;
-    width: 40rem;
-    height: 20rem;
-    object-fit: cover;
-    margin-left: 15px;
-    border-radius: 5px;
-    border: 1px solid #000;
   }
 
   .bloc_paillage {
     display: flex;
+    align-items: center;
+    width: 22rem;
+    height: 35rem;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;   
+    justify-content: space-around;
+    background: aliceblue;
+    border-radius: 10px;
   }
-
-  .minerales {
-    margin: 4rem 2rem;
+  .bloc_paillage img {
+    width: 20rem;
+    height: 16rem;
+    object-fit: cover;
+    margin-bottom: 22px;
+    border-radius: 10px;
   }
-
-  .foins {
-    margin: 4rem 2rem;
-  }
-
-  .Bois {
-    margin: 4rem 2rem;
-  }
-
-  .minerales h4,
-  .foins h4,
-  .Bois h4,
-  .boxe_auxiliaires_left h4,
-  .bloc_auxiliaires h4 {
+  .bloc_paillage h4 {
+    font-size: 18px;
     text-align: center;
-    font-size: 20px;
-    margin: 5rem 20px;
-}
+    color: #00b050;
+  }
 
   .bloc_paillage p {
-    font-size: 22px;
+    font-size: 16px;
     text-align: justify;
-   
   }
 
   /* *************************** ************************************************* */
@@ -1008,6 +1059,7 @@ body {
 
   .actu_section h2 {
     font-size: 30px;
+    color: #00b050;
     text-align: center;
     margin-bottom: 4rem;
   }
@@ -1044,19 +1096,17 @@ body {
   .bloc_img_up .photo_right {
     width: 10rem;
     height: 15rem;
-    /* margin-left: -19px;
-    margin-top: 1px; */
     border-top-right-radius: 10px;
   }
 
   .bloc_img_up .photo_left {
-    width: 28rem;
+    width: 23rem;
     height: 15rem;
     border-top-left-radius: 10px;
     object-fit: cover;
   }
   .bloc_img_dawn .photo_right {
-    width: 29rem;
+    width: 24rem;
     height: 15rem;
     margin-left: -18px;
     border-bottom-right-radius: 10px;
@@ -1095,14 +1145,12 @@ body {
   /* ************************ Bloc Astuces Jardinage *************************** */
   /* *************************** ************************************************* */
   .poulailler {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 5px;
+    width: 100%;
   }
 
   .poulailler h2 {
-    font-size: 35px;
+    font-size: 30px;
+    color: #00b050;
     width: 100%;
     margin-bottom: 4rem;
   }
@@ -1121,26 +1169,28 @@ body {
   }
 
   .bloc_astuces_left .box_astuces {
-    width: 22rem;
     display: flex;
-    height: auto;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin: 20px 7px;
+    width: 20rem;
+    height: 36rem;
+    flex-direction: column;
+    background: aliceblue;
+    border-radius: 10px;
   }
 
   .bloc_astuces_left {
     display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 22rem;
-    height: 20rem;
+    width: 18rem;
     object-fit: cover;
     border-radius: 10px;
+    margin-top: 10px;
   }
 
   .bloc_astuce_right img {
@@ -1152,15 +1202,14 @@ body {
   }
 
   .bloc_astuces_left .box_astuces h4 {
-    font-size: 20px;
-    color: black;
+    font-size: 18px;
+    color: #00b050;
     margin: 20px auto;
     text-align: center;
   }
 
   .bloc_astuces_left p {
-    font-size: 18px;
-    width: 90%;
+    font-size: 16px;
     height: auto;
     line-height: 1.6;
     text-align: justify;
@@ -1172,9 +1221,19 @@ body {
 
   .section_auxiliaires {
     display: flex;
-    flex-direction: column;
     margin: 6rem 10px;
     gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .section_auxiliaires h1 {
+    font-size: 30px;
+    color: #00b050;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
   }
 
   .bloc_auxiliaires h1 {
@@ -1183,40 +1242,31 @@ body {
     margin: 5rem 6px 2rem;
   }
 
-  .boxe_auxiliaires_centre img {   
-    width: 50rem;
-    height: 22rem;
-    object-fit: cover;
-    margin-bottom: 2rem;
-  }
-
   .bloc_auxiliaires {
     display: flex;
+    align-items: center;
+    width: 20rem;
+    height: 35rem;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    
+    justify-content: space-around;
+    background: aliceblue;
+    border-radius: 10px;
   }
-
-  .bloc_ciel {
-    margin-bottom: 1rem;
+  .bloc_auxiliaires img {
+    width: 18rem;
+    height: 16rem;
+    object-fit: cover;
+    margin-bottom: 22px;
+    border-radius: 10px;
   }
-
-  .bloc-sur_terre {
-    margin-bottom: 1rem;
-  }
-
-  .bloc-sous_terre {
-    margin-bottom: 1rem;
-  }
-
   .bloc_auxiliaires h4 {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
+    color: #00b050;
   }
 
   .bloc_auxiliaires p {
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
   }
 
@@ -1380,5 +1430,3 @@ body {
     color: black;
   }
 }
-
-
