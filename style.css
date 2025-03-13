@@ -5,7 +5,8 @@
 }
 
 body {
-  background: rgb(202, 235, 202);
+  /* background: rgb(202, 235, 202); */
+  background: #FBFBFB
 }
 
 /* *************************** ************************************************* */
@@ -1191,6 +1192,7 @@ body {
     border-radius: 10px;
     margin-top: 10px;
   }
+ 
 
   .bloc_astuce_right img {
     width: 22rem;
