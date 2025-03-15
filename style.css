@@ -5,8 +5,9 @@
 }
 
 body {
+  font-family: Arial, sans-serif;
   /* background: rgb(202, 235, 202); */
-  background: #FBFBFB
+  /* background: #a6e2a4; */
 }
 
 /* *************************** ************************************************* */
@@ -173,7 +174,7 @@ body {
     width: 5rem;
   }
   .social_media h4 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin: 20px auto;
   }
@@ -455,6 +456,15 @@ body {
     border-top: 2px solid #000;
     text-align: center;
     height: auto;
+    background: #a6e2a4;
+  }
+  .mairie img{
+    width: 5rem;
+    margin: 25px auto 20px;
+  }
+  .mairie p {
+    font-size: 16px;
+    margin: 20px;
   }
 }
 
@@ -669,6 +679,7 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+    background: #a6e2a4;
   }
   footer .fa-facebook {
     font-size: 40px;
@@ -811,9 +822,9 @@ body {
   }
   .bloc_home {
     width: 100%;
-    display: flex;
-    margin-top: 6rem;
+    display: flex;   
     justify-content: space-between;
+    margin: 6rem 0 4rem;
   }
   .bloc_img_right {
     width: 45%;
@@ -1192,7 +1203,6 @@ body {
     border-radius: 10px;
     margin-top: 10px;
   }
- 
 
   .bloc_astuce_right img {
     width: 22rem;
@@ -1274,8 +1284,51 @@ body {
   /* *********** *********** ************************************************* */
   /* *********** *********** Footer ****************************************** */
   /* *********** *********** ************************************************* */
+  .footer_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #a6e2a4;
+  }
+  .mairie {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .mairie img{
+    width: 5rem;
+  }
+  footer .fa-facebook {
+    font-size: 35px;
+    margin-bottom: 2rem;
+    margin-inline: 50px;
+  }
+  footer .fa-instagram {
+    font-size: 35px;
+    margin-bottom: 2rem;
+    margin-inline: 50px;
+    background-clip: text;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  footer .fa-x-twitter {
+    font-size: 35px;
+    margin-bottom: 2rem;
+    margin-inline: 50px;
+    color: #000;
+  }
 
-  .liens_utiles .logo_mairie {
+
+  /* .liens_utiles .logo_mairie {
     width: 4rem;
     margin-left: 40px;
   }
@@ -1347,11 +1400,7 @@ body {
     height: auto;
   }
 
-  .footer_block {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-  }
+  
 
   .liens_utiles h4 {
     letter-spacing: 1px;
@@ -1429,5 +1478,5 @@ body {
     font-size: 16px;
     font-family: cursive;
     color: black;
-  }
+  } */
 }
