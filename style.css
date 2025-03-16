@@ -1412,7 +1412,7 @@ body {
   .bloc_astuces_left {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
   }
 
