@@ -1399,10 +1399,10 @@ body {
   }
 
   .bloc_astuces_left .box_astuces {
+    width: 22rem;
+    height: 32rem;
     display: flex;
     align-items: center;
-    width: 15rem;
-    height: 32rem;
     flex-direction: column;
     background: aliceblue;
     border-radius: 10px;
@@ -1416,8 +1416,8 @@ body {
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 13rem;
-    height: 14rem;
+    width: 20rem;
+    height: 16rem;
     object-fit: cover;
     border-radius: 10px;
     margin-top: 10px;
@@ -2010,7 +2010,7 @@ body {
   /* *************************** ************************************************* */
   /* ************************ Bloc Astuces Jardinage *************************** */
   /* *************************** ************************************************* */
-  /* .poulailler {
+  .poulailler {
     width: 100%;
   }
 
@@ -2033,10 +2033,10 @@ body {
   }
 
   .bloc_astuces_left .box_astuces {
-    display: flex;
-    align-items: center;
     width: 22rem;
     height: 35rem;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     background: aliceblue;
     border-radius: 10px;
@@ -2079,13 +2079,13 @@ body {
     text-align: center;
     border: 2px dashed #00b050;
     padding: 10px;
-  } */
+  }
 
   /* *************************** ************************************************* */
   /* ***************** Bloc Les auxiliaires du jardiniers  ********************* */
   /* *************************** ************************************************* */
 
-  /* .section_auxiliaires {
+  .section_auxiliaires {
     display: flex;
     margin: 6rem 10px;
     align-items: center;
@@ -2138,7 +2138,7 @@ body {
   .bloc_auxiliaires p {
     font-size: 18px;
     text-align: justify;
-  } */
+  }
 
   /* *********** *********** ************************************************* */
   /* *********** *********** Footer ****************************************** */
