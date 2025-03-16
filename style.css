@@ -344,7 +344,7 @@ body {
     border-radius: 10px;
     border: 1px solid #00b050;
   }
-  .actu_asso h1{
+  .actu_asso h1 {
     font-size: 22px;
     color: #00b050;
     text-align: center;
@@ -389,7 +389,7 @@ body {
     margin-top: 10px;
     border-radius: 10px;
   }
-  .bloc_paillage h4{
+  .bloc_paillage h4 {
     font-size: 20px;
     color: #00b050;
     text-align: center;
@@ -426,12 +426,12 @@ body {
     line-height: 1.5;
     margin: 20px 20px 3rem 20px;
   }
-  .section_auxiliaires h1{
+  .section_auxiliaires h1 {
     font-size: 22px;
     text-align: center;
     color: #00b050;
   }
-  
+
   .actu_asso p,
   .section_auxiliaires p {
     font-size: 16px;
@@ -1518,16 +1518,31 @@ body {
     align-items: center;
     flex-wrap: wrap;
   }
-  .mairie img {
+  .bloc_footer_desktop .mairie img {
     width: 5rem;
   }
-  .social_media .fa-facebook {
-    font-size: 35px;
+  .bloc_footer_desktop .mairie p {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .bloc_footer_desktop .dev span {
+    font-size: 14px;
+}
+.bloc_footer_desktop .dev p {
+  font-size: 14px;
+  margin: 20px;
+}
+.bloc_footer_desktop .dev {
+  font-size: 14px;
+  text-align: center;
+}
+.bloc_footer_desktop .social_media .fa-facebook{
+    font-size: 30px;
     margin-bottom: 2rem;
     margin-inline: 50px;
   }
-  .social_media .fa-instagram {
-    font-size: 35px;
+  .bloc_footer_desktop .social_media .fa-instagram {
+    font-size: 30px;
     margin-bottom: 2rem;
     margin-inline: 50px;
     background-clip: text;
@@ -1542,8 +1557,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .social_media .fa-x-twitter {
-    font-size: 35px;
+  .bloc_footer_desktop .social_media .fa-x-twitter {
+    font-size: 30px;
     margin-bottom: 2rem;
     margin-inline: 50px;
     color: #000;
