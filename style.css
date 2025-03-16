@@ -1386,7 +1386,8 @@ body {
   }
 
   .astuces {
-    display: flex;
+    display: flex;  
+    justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
     margin-top: 3rem;
@@ -1399,7 +1400,7 @@ body {
   }
 
   .bloc_astuces_left .box_astuces {
-    width: 20rem;
+    width: 16rem;
     height: 32rem;
     display: flex;
     align-items: center;
@@ -1411,12 +1412,12 @@ body {
   .bloc_astuces_left {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 1em;
+    gap: 10px;
     justify-content: center;
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 18rem;
+    width: 14rem;
     height: 16rem;
     object-fit: cover;
     border-radius: 10px;
