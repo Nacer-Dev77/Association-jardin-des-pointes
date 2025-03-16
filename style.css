@@ -1399,7 +1399,7 @@ body {
   }
 
   .bloc_astuces_left .box_astuces {
-    width: 22rem;
+    width: 20rem;
     height: 32rem;
     display: flex;
     align-items: center;
@@ -1416,7 +1416,7 @@ body {
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 20rem;
+    width: 18rem;
     height: 16rem;
     object-fit: cover;
     border-radius: 10px;
