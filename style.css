@@ -1247,7 +1247,7 @@ body {
     grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 30px;
     margin-bottom: 4rem;
   }
 
