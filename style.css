@@ -920,6 +920,8 @@ body {
   /* *************************** ************************************************* */
 
   h2 {
+    font-size: 25px;
+    color: #00b050;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: 2rem;
@@ -1049,7 +1051,7 @@ body {
 
   .histoire h2 {
     font-size: 20px;
-    color: #000;
+    color: #00b050;
     margin-top: 5rem;
   }
 
@@ -1061,7 +1063,7 @@ body {
   .histoire h3 {
     text-align: center;
     font-size: 20px;
-    color: #000;
+    color: #00b050;
     margin-bottom: 2rem;
   }
 
@@ -1126,7 +1128,7 @@ body {
     font-size: 30px;
     color: #00b050;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .bloc_climat .boxe h3 {
@@ -1218,22 +1220,29 @@ body {
     font-size: 30px;
     color: #00b050;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
+  }
+  .paillage {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 4rem;
   }
 
   .bloc_paillage {
     display: flex;
     align-items: center;
-    width: 22rem;
-    height: 35rem;
+    width: 15rem;
+    height: 42rem;
     flex-direction: column;
-    justify-content: space-around;
     background: aliceblue;
     border-radius: 10px;
   }
   .bloc_paillage img {
-    width: 20rem;
-    height: 16rem;
+    width: 13rem;
+    height: 15rem;
     object-fit: cover;
     margin-bottom: 22px;
     border-radius: 10px;
@@ -1241,6 +1250,7 @@ body {
   .bloc_paillage h4 {
     font-size: 18px;
     text-align: center;
+    margin: 20px 10px;
     color: #00b050;
   }
 
@@ -1332,7 +1342,8 @@ body {
   }
 
   .bloc_actu_section .texte h4 {
-    font-size: 25px;
+    font-size: 22px;
+    color: #00b050;
     text-align: center;
   }
   .texte span {
@@ -1413,27 +1424,26 @@ body {
     line-height: 1.6;
     text-align: justify;
     margin: 5px 10px;
+    border: 2px dashed #00b050;
+    padding: 10px;
   }
 
   /* *************************** ************************************************* */
   /* ***************** Bloc Les auxiliaires du jardiniers  ********************* */
   /* *************************** ************************************************* */
 
-  .section_auxiliaires {
-    display: flex;
-    margin: 6rem 10px;
-    gap: 2rem;
-    align-items: center;
+  .auxiliaires {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1em;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
   }
   .section_auxiliaires h1 {
     font-size: 30px;
     color: #00b050;
     width: 100%;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   .bloc_auxiliaires h1 {
@@ -1445,16 +1455,15 @@ body {
   .bloc_auxiliaires {
     display: flex;
     align-items: center;
-    width: 20rem;
+    width: 15rem;
     height: 35rem;
     flex-direction: column;
-    justify-content: space-around;
     background: aliceblue;
     border-radius: 10px;
   }
   .bloc_auxiliaires img {
-    width: 18rem;
-    height: 16rem;
+    width: 13rem;
+    height: 15rem;
     object-fit: cover;
     margin-bottom: 22px;
     border-radius: 10px;
@@ -1466,7 +1475,7 @@ body {
   }
 
   .bloc_auxiliaires p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
   }
 
@@ -1525,7 +1534,7 @@ body {
 /* *********************** Large desktop ***************************************** */
 /* *************************** ************************************************* */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   /* *************************** ************************************************* */
   /* *********************** Navigation ***************************************** */
   /* *************************** ************************************************* */
@@ -1672,7 +1681,7 @@ body {
 
   .histoire h2 {
     font-size: 20px;
-    color: #000;
+    color: #00b050;
     margin-top: 5rem;
   }
 
@@ -1684,7 +1693,7 @@ body {
   .histoire h3 {
     text-align: center;
     font-size: 20px;
-    color: #000;
+    color: #00b050;
     margin-bottom: 2rem;
   }
 
@@ -1749,7 +1758,7 @@ body {
     font-size: 30px;
     color: #00b050;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .bloc_climat .boxe h3 {
@@ -1759,12 +1768,11 @@ body {
   }
 
   .bloc_climat {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 10px;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
+    margin-top: 4rem;
+    justify-content: space-around;
   }
 
   .bloc_climat .boxe {
@@ -1772,7 +1780,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    width: 12rem;
+    width: 17rem;
     height: 20rem;
     text-align: center;
     overflow: hidden;
@@ -1780,10 +1788,11 @@ body {
     border-radius: 5px;
     border: 1px solid #00b050;
     padding: 10px;
+    justify-content: space-evenly;
   }
 
   .bloc_climat .boxe p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     line-height: 1.5;
   }
@@ -1841,16 +1850,15 @@ body {
     font-size: 30px;
     color: #00b050;
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .bloc_paillage {
     display: flex;
     align-items: center;
     width: 22rem;
-    height: 35rem;
+    height: 40rem;
     flex-direction: column;
-    justify-content: space-around;
     background: aliceblue;
     border-radius: 10px;
   }
@@ -1868,7 +1876,7 @@ body {
   }
 
   .bloc_paillage p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
   }
 
@@ -1980,36 +1988,36 @@ body {
   .astuces {
     display: flex;
     gap: 5px;
-    flex-wrap: wrap;
-    margin-top: 3rem;
+    flex-wrap: wrap;   
   }
 
   .astuces h2 {
     font-size: 30px;
     width: 100%;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
   }
 
   .bloc_astuces_left .box_astuces {
     display: flex;
     align-items: center;
-    width: 20rem;
-    height: 36rem;
+    width: 22rem;
+    height: 35rem;
     flex-direction: column;
     background: aliceblue;
     border-radius: 10px;
   }
 
   .bloc_astuces_left {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
+    grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-content: center;
+    gap: 1em;
+    margin-left: 30px;
   }
 
   .bloc_astuces_left .box_astuces img {
-    width: 18rem;
+    width: 20rem;
+    height: 16rem;
     object-fit: cover;
     border-radius: 10px;
     margin-top: 10px;
@@ -2031,10 +2039,11 @@ body {
   }
 
   .bloc_astuces_left p {
-    font-size: 16px;
-    height: auto;
+    font-size: 18px;
     line-height: 1.6;
-    text-align: justify;
+    text-align: center;
+    border: 2px dashed #00b050;
+    padding: 10px;
   }
 
   /* *************************** ************************************************* */
@@ -2044,18 +2053,23 @@ body {
   .section_auxiliaires {
     display: flex;
     margin: 6rem 10px;
-    gap: 2rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
+  }
+  .auxiliaires {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1em;
+    justify-content: center;
   }
   .section_auxiliaires h1 {
     font-size: 30px;
     color: #00b050;
     width: 100%;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   .bloc_auxiliaires h1 {
@@ -2067,15 +2081,14 @@ body {
   .bloc_auxiliaires {
     display: flex;
     align-items: center;
-    width: 20rem;
+    width: 22rem;
     height: 35rem;
     flex-direction: column;
-    justify-content: space-around;
     background: aliceblue;
     border-radius: 10px;
   }
   .bloc_auxiliaires img {
-    width: 18rem;
+    width: 20rem;
     height: 16rem;
     object-fit: cover;
     margin-bottom: 22px;
@@ -2088,7 +2101,7 @@ body {
   }
 
   .bloc_auxiliaires p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
   }
 
