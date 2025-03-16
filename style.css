@@ -1232,7 +1232,7 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
   }
 
   .actu_asso h1 {
@@ -1456,7 +1456,7 @@ body {
   .auxiliaires {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 1em;
+    gap: 30px;
     justify-content: center;
   }
   .section_auxiliaires h1 {
