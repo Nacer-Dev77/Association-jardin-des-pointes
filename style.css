@@ -493,6 +493,11 @@ body {
   .footer_block_mobile .mairie_mobile {
     margin: 20px;
   }
+  .footer_block_mobile .mairie_mobile h4{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
   .footer_block_mobile .mairie_mobile img {
     width: 4rem;
   }
@@ -548,20 +553,6 @@ body {
     color: #000;
   }
 
-  /* .bloc_footer_mobile .footer_mobile {
-    border-top: 2px solid #000;
-    text-align: center;
-    height: auto;
-    background: #a6e2a4;
-  }
-  .bloc_footer_mobile .mairie_mobile img {
-    width: 5rem;
-    margin: 25px auto 20px;
-  }
-  .bloc_footer_mobile .mairie_mobile p {
-    font-size: 16px;
-    margin: 20px;
-  } */
 }
 
 /* *************************** **************************************************/
@@ -804,6 +795,11 @@ body {
   .bloc_footer_desktop .mairie {
     margin: 10px;
   }
+  .bloc_footer_desktop .mairie h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
   .bloc_footer_desktop .social_media h4 {
     font-size: 14px;
     text-align: center;
@@ -881,9 +877,13 @@ body {
     font-size: 13px;
     text-align: center;
   }
-  .bloc_footer_desktop .mairie {
-    margin: 10px;
+  .bloc_footer_desktop .mairie { 
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: 10px;
   }
+   
   .bloc_footer_desktop .social_media h4 {
     font-size: 14px;
     text-align: center;
@@ -1514,11 +1514,12 @@ body {
     flex-wrap: wrap;
     background: #a6e2a4;
   }
-  .mairie {
+  .bloc_footer_desktop .mairie {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-  }
+    flex-direction: column;
+    margin: 10px;
+}
   .bloc_footer_desktop .mairie img {
     width: 5rem;
   }
@@ -2155,11 +2156,12 @@ body {
     flex-wrap: wrap;
     background: #a6e2a4;
   }
-  .mairie {
+  .bloc_footer_desktop .mairie {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-  }
+    flex-direction: column;
+    margin: 10px;
+}
   .mairie img {
     width: 5rem;
   }
