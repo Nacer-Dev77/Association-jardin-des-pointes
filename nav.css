@@ -17,9 +17,16 @@
   text-decoration: none;
   padding: 10px 15px;
 }
-.menu a:hover {
-  color: #fff;
-  background: #00b050;  
+
+.menu a:hover, 
+.menu a:focus {
+	background-color: #00b050;
+	color: white;
+  border-radius: 5px;
+}
+.menu a.active {
+	background-color: #00b050;
+	color: white;
   border-radius: 5px;
 }
 .menu-toggle {
@@ -36,6 +43,10 @@
   display: flex;
   align-items: center;
 }
+.title_logo a{
+  text-decoration: none;
+}
+
 .title_logo img {
   width: 8rem;
   margin-right: 10px;
