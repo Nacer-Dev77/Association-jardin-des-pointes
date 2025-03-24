@@ -351,6 +351,7 @@ body {
     height: 10rem;
     border-radius: 10px;
     border: 1px solid #00b050;
+    box-shadow: 5px 5px #00b050;
   }
   .actu_asso h1 {
     font-size: 22px;
@@ -821,6 +822,7 @@ body {
     line-height: 1.5;
     margin: 20px auto;
     width: 30rem;
+    box-shadow: 5px 5px #00b050;
   }
 
   .bloc_climat .boxe i {
