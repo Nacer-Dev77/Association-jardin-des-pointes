@@ -117,6 +117,10 @@ body {
     line-height: 1.5;
     margin: 20px;
   }
+  .jardin_thorigny a {
+    color: #00b050;
+    text-decoration: none;
+  }
   .histoire {
     display: flex;
     flex-direction: column;
@@ -140,6 +144,10 @@ body {
     text-align: center;
     line-height: 1.5;
     margin-bottom: 2rem;
+  }
+  .histoire a {
+    color: #00b050;
+    text-decoration: none;
   }
   .bloc_img_right img {
     width: 95%;
@@ -469,6 +477,149 @@ body {
     margin-bottom: 2rem;
   }
 
+  /********************** ADRESSE ************************************************* */
+  /******************************************************************************* */
+
+  .contact {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem 15px;
+  }
+  .contact_info{
+    width: 90%;
+  }
+  .contact_map{
+    width: 90%;
+  }
+  .contact h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+    margin-bottom: 2rem;
+  }
+
+  .contact .contact_info .adresse {
+    width: 95%;
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 8rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact .contact_info .adresse p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .contact .contact_info .adresse .fa-house {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+    margin: auto 10px 20px auto;
+  }
+  .contact .contact_info .adresse span {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+  }
+
+  .contact .contact_info .adresse a {
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    color: #000;
+  }
+
+  /********************** Mail ************************************************* */
+  /**************************************************************************** */
+
+  .contact .contact_info .mail {
+    width: 95%;
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 8rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact .contact_info .mail .fa-envelope {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+    margin: auto 10px 20px auto;
+  }
+  .contact .contact_info .mail span {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+  }
+  .contact .contact_info .mail a {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    border: none;
+  }
+
+  /********************** NOUS SUIVRE ****************************************** */
+  /**************************************************************************** */
+  .contact .contact_info .social_media {
+    width: 95%;
+    border-left: 2px solid #00b050;
+      border-right: 2px solid #00b050;
+      border-bottom: 2px solid #00b050;
+      border-radius: 10px;
+      padding: 10px;     
+      margin-bottom: 30px;
+      height: 8rem;
+      box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact_info .social_media .fa-hashtag {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+    margin: auto 10px 20px auto;
+  }
+  .contact .contact_info .social_media span {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+  }
+
+  .contact .contact_info .social_media .fa-facebook {
+    font-size: 30px;
+    margin-inline: 4rem;
+  }
+
+  .contact .contact_info .social_media .fa-instagram {
+    font-size: 30px;
+    background-clip: text;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /**********************Nous Rejoindre *************************************** */
+  /**************************************************************************** */
+  .contact .contact_map iframe {
+    width: 90%;
+    margin: 2rem 15px;
+    border-radius: 10px;
+  }
+
   /* *************************** **************************************************/
   /* *********************** Footer ***********************************************/
   /* *************************** **************************************************/
@@ -493,7 +644,7 @@ body {
   .footer_block_mobile .mairie_mobile {
     margin: 20px;
   }
-  .footer_block_mobile .mairie_mobile h4{
+  .footer_block_mobile .mairie_mobile h4 {
     font-size: 14px;
     text-align: center;
     margin-bottom: 10px;
@@ -552,7 +703,6 @@ body {
     margin-bottom: 30px;
     color: #000;
   }
-
 }
 
 /* *************************** **************************************************/
@@ -795,7 +945,7 @@ body {
   .bloc_footer_desktop .mairie {
     margin: 10px;
   }
-  .bloc_footer_desktop .mairie h4{
+  .bloc_footer_desktop .mairie h4 {
     font-size: 14px;
     margin-bottom: 10px;
     text-align: center;
@@ -877,13 +1027,13 @@ body {
     font-size: 13px;
     text-align: center;
   }
-  .bloc_footer_desktop .mairie { 
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      margin: 10px;
+  .bloc_footer_desktop .mairie {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
   }
-   
+
   .bloc_footer_desktop .social_media h4 {
     font-size: 14px;
     text-align: center;
@@ -1055,7 +1205,7 @@ body {
   }
 
   .jardin_thorigny a {
-    color: blue;
+    color: #00b050;
     text-decoration: none;
   }
 
@@ -1076,7 +1226,7 @@ body {
   }
 
   .histoire a {
-    color: blue;
+    color: #00b050;
     text-decoration: none;
   }
 
@@ -1386,7 +1536,7 @@ body {
   }
 
   .astuces {
-    display: flex;  
+    display: flex;
     justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
@@ -1501,6 +1651,138 @@ body {
   }
 
   /* *********** *********** ************************************************* */
+  /* *********** *********** Page CONTACT ************************************ */
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto;
+  }
+  .contact h2 {
+    font-size: 25px;
+    text-align: center;
+    color: #00b050;
+    margin-bottom: 3rem;
+  }
+
+  /********************** ADRESSE ************************************************* */
+  /******************************************************************************* */
+
+  .contact .contact_info .adresse {
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 7rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact .contact_info .adresse:hover{
+    transform: scale(1.08);
+  }
+  .contact .contact_info .adresse p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .contact .contact_info .adresse .fa-house {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+    margin: auto 10px 20px auto;
+  }
+  .contact .contact_info .adresse span {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+  }
+
+  .contact .contact_info .adresse a {
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    color: #000;
+  }
+
+  /********************** Mail ************************************************* */
+  /**************************************************************************** */
+
+  .contact .contact_info .mail {
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 7rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact .contact_info .mail:hover{
+    transform: scale(1.08);
+  }
+  .contact .contact_info .mail .fa-envelope {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+    margin: auto 10px 20px auto;
+  }
+  .contact .contact_info .mail span {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+  }
+  .contact .contact_info .mail a {
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    margin-left: 45px;
+  }
+
+  /********************** NOUS SUIVRE ****************************************** */
+  /**************************************************************************** */
+  .contact .contact_info .social_media {
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 7rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact .contact_info .social_media:hover{
+    transform: scale(1.08);
+  }
+  
+  .contact_info .social_media .fa-hashtag {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+    margin: auto 10px 20px auto;
+  }
+  .contact .contact_info .social_media span {
+    font-size: 20px;
+    text-align: center;
+    color: #00b050;
+  }
+
+  /**********************Nous Rejoindre *************************************** */
+  /**************************************************************************** */
+  .contact .contact_map h2 {
+    font-size: 25px;
+    text-align: center;
+    color: #00b050;
+    margin-bottom: 1rem;
+  }
+  .contact .contact_map iframe {
+    width: 600px;
+    height: 400px;
+    margin: 2rem 15px;
+    border-radius: 10px;
+  }
+
+  /* *********** *********** ************************************************* */
   /* *********** *********** Footer ****************************************** */
   /* *********** *********** ************************************************* */
 
@@ -1519,7 +1801,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 10px;
-}
+  }
   .bloc_footer_desktop .mairie img {
     width: 5rem;
   }
@@ -1529,16 +1811,16 @@ body {
   }
   .bloc_footer_desktop .dev span {
     font-size: 14px;
-}
-.bloc_footer_desktop .dev p {
-  font-size: 14px;
-  margin: 20px;
-}
-.bloc_footer_desktop .dev {
-  font-size: 14px;
-  text-align: center;
-}
-.bloc_footer_desktop .social_media .fa-facebook{
+  }
+  .bloc_footer_desktop .dev p {
+    font-size: 14px;
+    margin: 20px;
+  }
+  .bloc_footer_desktop .dev {
+    font-size: 14px;
+    text-align: center;
+  }
+  .bloc_footer_desktop .social_media .fa-facebook {
     font-size: 30px;
     margin-bottom: 2rem;
     margin-inline: 50px;
@@ -1702,7 +1984,7 @@ body {
   }
 
   .jardin_thorigny a {
-    color: blue;
+    color: #00b050;
     text-decoration: none;
   }
 
@@ -1723,7 +2005,7 @@ body {
   }
 
   .histoire a {
-    color: blue;
+    color: #00b050;
     text-decoration: none;
   }
 
@@ -2161,7 +2443,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 10px;
-}
+  }
   .mairie img {
     width: 5rem;
   }
