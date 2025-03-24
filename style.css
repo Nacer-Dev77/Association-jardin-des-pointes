@@ -482,14 +482,13 @@ body {
 
   .contact {
     width: 95%;
-    
     align-items: center;
     margin: 2rem 15px;
   }
-  .contact_info{
+  .contact_info {
     width: 90%;
   }
-  .contact_map{
+  .contact_map {
     width: 90%;
   }
   .contact h2 {
@@ -570,13 +569,13 @@ body {
   .contact .contact_info .social_media {
     width: 95%;
     border-left: 2px solid #00b050;
-      border-right: 2px solid #00b050;
-      border-bottom: 2px solid #00b050;
-      border-radius: 10px;
-      padding: 10px;     
-      margin-bottom: 30px;
-      height: 8rem;
-      box-shadow: 5px 5px 0px #bfe2cf;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 8rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
   }
   .contact_info .social_media .fa-hashtag {
     font-size: 20px;
@@ -901,7 +900,86 @@ body {
     border: 2px dashed #00b050;
     padding: 10px;
   }
+  /* *************************** ************************************************* */
+  /* *********************** CONTACT ********************************************** */
+  /* *************************** ************************************************* */
 
+  .contact {
+    display: flex;
+    width: 98%;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 10px;
+  }
+  .contact_info {
+    width: 100%;
+}
+  /********************** ADRESSE ****************************************** */
+  /**************************************************************************** */
+  .contact .contact_info .adresse {
+    width: 100%;
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 8rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+}
+.contact .contact_info .adresse p {
+  font-size: 16px;
+  text-align: center;
+}
+ /********************** NOUS CONTACTER ****************************************** */
+  /**************************************************************************** */
+.contact .contact_info .mail {
+  width: 100%;
+  border-left: 2px solid #00b050;
+  border-right: 2px solid #00b050;
+  border-bottom: 2px solid #00b050;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  height: 8rem;
+  box-shadow: 5px 5px 0px #bfe2cf;
+}
+.contact .contact_info .mail a {
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  border: none;
+}
+ /********************** NOUS SUIVRE ****************************************** */
+  /**************************************************************************** */
+ .contact .contact_info .social_media {
+  width: 100%;
+  border-left: 2px solid #00b050;
+  border-right: 2px solid #00b050;
+  border-bottom: 2px solid #00b050;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  height: 8rem;
+  box-shadow: 5px 5px 0px #bfe2cf;
+}
+.contact .contact_info .social_media .fa-facebook {
+  font-size: 35px;
+  margin-inline: 5rem;
+}
+.contact .contact_info .social_media .fa-instagram {
+  font-size: 35px;
+  background-clip: text;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ /********************** NOUS REJOIDRE ****************************************** */
+  /**************************************************************************** */
+.contact_map {
+  width: 100%;
+}
   /* *************************** ************************************************* */
   /* *********************** Footer ********************************************** */
   /* *************************** ************************************************* */
@@ -1676,7 +1754,7 @@ body {
     height: 7rem;
     box-shadow: 5px 5px 0px #bfe2cf;
   }
-  .contact .contact_info .adresse:hover{
+  .contact .contact_info .adresse:hover {
     transform: scale(1.08);
   }
   .contact .contact_info .adresse p {
@@ -1715,7 +1793,7 @@ body {
     height: 7rem;
     box-shadow: 5px 5px 0px #bfe2cf;
   }
-  .contact .contact_info .mail:hover{
+  .contact .contact_info .mail:hover {
     transform: scale(1.08);
   }
   .contact .contact_info .mail .fa-envelope {
@@ -1749,10 +1827,10 @@ body {
     height: 7rem;
     box-shadow: 5px 5px 0px #bfe2cf;
   }
-  .contact .contact_info .social_media:hover{
+  .contact .contact_info .social_media:hover {
     transform: scale(1.08);
   }
-  
+
   .contact_info .social_media .fa-hashtag {
     font-size: 20px;
     text-align: center;
