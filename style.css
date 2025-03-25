@@ -915,7 +915,7 @@ body {
   }
   .contact_info {
     width: 100%;
-}
+  }
   /********************** ADRESSE ****************************************** */
   /**************************************************************************** */
   .contact .contact_info .adresse {
@@ -928,60 +928,67 @@ body {
     margin-bottom: 30px;
     height: 8rem;
     box-shadow: 5px 5px 0px #bfe2cf;
-}
-.contact .contact_info .adresse p {
-  font-size: 16px;
-  text-align: center;
-}
- /********************** NOUS CONTACTER ****************************************** */
+  }
+  .contact .contact_info .adresse p {
+    font-size: 16px;
+    text-align: center;
+  }
+  /********************** NOUS CONTACTER ****************************************** */
   /**************************************************************************** */
-.contact .contact_info .mail {
-  width: 100%;
-  border-left: 2px solid #00b050;
-  border-right: 2px solid #00b050;
-  border-bottom: 2px solid #00b050;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 30px;
-  height: 8rem;
-  box-shadow: 5px 5px 0px #bfe2cf;
-}
-.contact .contact_info .mail a {
-  font-size: 20px;
-  color: #000;
-  text-decoration: none;
-  border: none;
-}
- /********************** NOUS SUIVRE ****************************************** */
+  .contact .contact_info .mail {
+    width: 100%;
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 8rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact .contact_info .mail a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    border: none;
+  }
+  /********************** NOUS SUIVRE ****************************************** */
   /**************************************************************************** */
- .contact .contact_info .social_media {
-  width: 100%;
-  border-left: 2px solid #00b050;
-  border-right: 2px solid #00b050;
-  border-bottom: 2px solid #00b050;
-  border-radius: 10px;
-  padding: 10px;
-  margin-bottom: 30px;
-  height: 8rem;
-  box-shadow: 5px 5px 0px #bfe2cf;
-}
-.contact .contact_info .social_media .fa-facebook {
-  font-size: 35px;
-  margin-inline: 5rem;
-}
-.contact .contact_info .social_media .fa-instagram {
-  font-size: 35px;
-  background-clip: text;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .contact .contact_info .social_media {
+    width: 100%;
+    border-left: 2px solid #00b050;
+    border-right: 2px solid #00b050;
+    border-bottom: 2px solid #00b050;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 8rem;
+    box-shadow: 5px 5px 0px #bfe2cf;
+  }
+  .contact .contact_info .social_media .fa-facebook {
+    font-size: 35px;
+    margin-inline: 5rem;
+  }
+  .contact .contact_info .social_media .fa-instagram {
+    font-size: 35px;
+    background-clip: text;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
- /********************** NOUS REJOIDRE ****************************************** */
+  /********************** NOUS REJOIDRE ****************************************** */
   /**************************************************************************** */
-.contact_map {
-  width: 100%;
-}
+  .contact_map {
+    width: 100%;
+  }
   /* *************************** ************************************************* */
   /* *********************** Footer ********************************************** */
   /* *************************** ************************************************* */
@@ -1736,6 +1743,10 @@ body {
     justify-content: space-around;
     margin: 4rem auto;
   }
+  .contact_info {
+    width: 100%;
+    margin-inline: 40px;
+}
   .contact h2 {
     font-size: 25px;
     text-align: center;
